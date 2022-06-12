@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+.App {
+  padding: 4rem;
+  color: rgb(255, 0, 64);
+  text-align: center;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.search-box {
+  outline: none;
+  width: 70%;
+  border: 1px solid grey;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+}
